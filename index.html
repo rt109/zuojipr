@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>PokéRogue</title>
+	<meta name="title" content="PokéRogue" />
+	<meta name="description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible." />
+	<meta name="theme-color" content="#da3838" />
+	<meta name="keywords" content="pokerogue, pokemon, roguelite" />
+	<meta name="news_keywords" content="pokerogue, pokemon, roguelite" />
+	<meta name="distribution" content="Global">
+	<meta http-equiv="audience" content="General">
+	<meta property="og:title" content="PokéRogue" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible." />
+	<meta property="og:image" content="https://pokerogue.net/logo512.png" />
+	<meta property="og:url" content="https://pokerogue.net" />
+	<meta property="og:site_name" content="PokéRogue" />
+	<meta property="twitter:title" content="PokéRogue" />
+	<meta property="twitter:description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible." />
+	<meta property="twitter:image" content="https://pokerogue.net/logo512.png" />
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:url" content="https://pokerogue.net" />
+	<link rel="apple-touch-icon" href="./logo512.png" />
+	<link rel="shortcut icon" type="image/png" href="./logo512.png" />
+	<link rel="canonical" href="https://pokerogue.net" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+	<!-- //dt -->
+	<!-- <link rel="stylesheet" href="./src/formCreate/element-plus.css"/>
+	<script src="./src/formCreate/vue3.js"></script>
+	<script src="./src/formCreate/element-plus.js"></script>
+	<script src="./src/formCreate/element-ui.js"></script>
+	<script src="./src/formCreate/designer.js"></script> -->
+			<style type="text/css">
+			/* kb */
+			.kobeParent {
+				display: none;
+				position: absolute;
+			    text-align: center; /* 使子元素（包括inline-block元素）在水平方向上居中 */  
+				font-size: 20px;
+			}
+			
+			.select-wrapper {  
+				 display: inline-block;
+				 /* width: 70%; */
+			    text-align: center; /* 居中显示 */  
+			    margin-top: 20px; /* 顶部间距，根据需要调整 */ 
+				 background-color: rgba(75, 20, 100, .7); /* 紫色半透明背景，这里使用的是深紫色，透明度为0.5  */
+				 color: yellow; /* 文字颜色设置为黄色 */  
+			}  
+			
+			.kobeTextClass {
+				padding-left: 5%;
+				padding-right: 5%;
+			}
+			  
+			.dzTextClass {
+				padding-left: 5%;
+				padding-right: 5%;
+				font-size: 15px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+			} 
+			  
+			select#yearSelector {  
+			    padding: 8px; /* 内边距 */  
+			    font-size: 16px; /* 字体大小 */  
+			    border: 1px solid #ccc; /* 边框 */  
+			    border-radius: 4px; /* 边框圆角 */  
+			    cursor: pointer; /* 鼠标悬停时显示指针 */  
+			    
+			}  
+			  
+			select#yearSelector:focus {  
+			    border-color: #007bff; /* 聚焦时的边框颜色 */  
+			    outline: none; /* 移除聚焦时的默认轮廓 */  
+			    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* 聚焦时的阴影效果 */  
+			}
+			
+			#kobeCancel {
+			    width: 80px;
+			    height: 50px;
+			} 
+			#kobeAction {
+			    width: 80px;
+			    height: 50px;
+			}
+			/* //dz2 */
+			.dzParent {
+				display: none;
+				position: absolute;
+			    text-align: center; /* 使子元素（包括inline-block元素）在水平方向上居中 */  
+				font-size: 20px;
+			}
+			select#hardSelector {
+			    padding: 8px; /* 内边距 */  
+			    font-size: 16px; /* 字体大小 */  
+			    border: 1px solid #ccc; /* 边框 */  
+			    border-radius: 4px; /* 边框圆角 */  
+			    cursor: pointer; /* 鼠标悬停时显示指针 */  
+			    
+			}  
+			  
+			select#hardSelector:focus {  
+			    border-color: #007bff; /* 聚焦时的边框颜色 */  
+			    outline: none; /* 移除聚焦时的默认轮廓 */  
+			    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* 聚焦时的阴影效果 */  
+			}
+			
+			#dzCancel {
+			    width: 80px;
+			    height: 50px;
+			} 
+			#dzAction {
+			    width: 80px;
+			    height: 50px;
+			}
+			/* //dzm */
+			#missionSelect-container,#dutu-container {
+				display: none;				
+				text-align: center; /* 使子元素（包括inline-block元素）在水平方向上居中 */
+			   position: absolute;
+			   top: 50%;
+			   left: 50%;
+			   transform: translate(-50%, -50%);
+			   flex-direction: column;
+			   gap: 15px;
+			   padding: 25px;
+			   background: #0e0f38c8;
+			   border-radius: 8px;
+			   box-shadow: 0 4px 6px rgba(234, 119, 175, 0.3);
+			}
+			
+			.btn {
+			   padding: 10px 25px;
+			   font-size: 15px;
+			   background: #06597c;
+			   color: white;
+			   border: none;
+			   border-radius: 4px;
+			   cursor: pointer;
+			   transition: transform 0.2s, background 0.3s;
+			   color: #ffdefe;
+			}
+			
+			.missionSelect-text,.dutu-text {
+			   font-size: 15px;
+			   color: #c1845b;
+			   margin-top: 0%;
+			   margin-bottom: 0%;
+			}
+			
+			.btn:hover {
+			   background: #17b1b3;
+			   transform: translateY(-2px);
+			}
+			/* //dt */
+			#formCreate{
+				position: absolute;
+				display: none;
+				background-color: black;
+				overflow: auto;
+				height: 100%;
+				width: 100%;
+				pointer-events: none;
+			}
+		@font-face {
+			font-family: 'emerald';
+			src: url('./fonts/pokemon-emerald-pro.ttf') format('truetype');
+		}
+
+		@font-face {
+			font-family: 'pkmnems';
+			src: url('./fonts/pkmnems.ttf') format('truetype');
+		}
+	</style>
+	<link rel="manifest" href="./manifest.webmanifest">
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js").then(
+          function (registration) {
+            console.log("ServiceWorker registration successful");
+          },
+          function (err) {
+            console.log("ServiceWorker registration failed: ", err);
+          },
+        );
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+	    var yearSelector = document.getElementById('yearSelector');  
+	    for (var year = 2024; year <= 2044; year++) {  
+	        var option = document.createElement('option');  
+	        option.value = year;
+			option.text = year + ".8.24";
+	        yearSelector.appendChild(option);  
+	    }  
+		//dz2
+		var hardSelector = document.getElementById('hardSelector');
+		for (var hard = 1; hard <= 5; hard++) {  
+		    var option2 = document.createElement('option');  
+		    option2.value = hard;
+			option2.text = "👻" + hard;
+		    hardSelector.appendChild(option2);  
+		}  
+	});
+window.addEventListener('beforeinstallprompt', e => {
+      // Prevent invasive install prompt (users are still able to install as an app)
+      e.preventDefault();
+    });
+  </script>
+  <script type="module" crossorigin src="./assets/index-zuoji.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BLbP7VZW.css">
+</head>
+
+<body>
+	<div id="app"></div>
+	<div class="kobeParent">
+		<div class="select-wrapper">  
+			<label for="yearSelector" >&nbsp;&nbsp;&nbsp;选择赛季后点确定:</label>  
+			<select id="yearSelector">  
+				<!-- 使用JavaScript动态添加年份选项 -->  
+			</select>
+			  <p id="kobeRecordText1" class="kobeTextClass">门槛：12610</p>
+			  <p id="kobeRecordText2" class="kobeTextClass">你的得分纪录：0</p>
+			  <p id="kobeRecordText3" class="kobeTextClass">排名：前？%</p>
+			  <p id="kobeRecordText4" class="kobeTextClass">无尽起始金：0</p>
+			  <p id="kobeRecordText5" class="kobeTextClass">妖梦起始金：0</p>
+			  <button id="kobeCancel">取消</button>
+			  <button id="kobeAction">确定</button>
+		</div>  
+	</div>
+	<!-- //dz2 -->
+	<div class="dzParent">
+		<div class="select-wrapper">  
+			<label for="hardSelector" >&nbsp;&nbsp;&nbsp;选个难度点确定:&nbsp;&nbsp;&nbsp;</label>
+			  <br>
+			<select id="hardSelector">   
+			</select>
+			<br>
+			<button id="dzCancel">取消</button>
+			<button id="dzAction">确定</button>
+			  <p id="dzText1" class="dzTextClass">已通关最高难度：0</p>
+			  <p id="dzText2" class="dzTextClass">波数：100</p>
+			  <p id="dzText3" class="dzTextClass">训练师双打：❌</p>
+			  <p id="dzText4" class="dzTextClass">路闪值增加：0.3</p>
+			  <p id="dzText5" class="dzTextClass">闪光护盾数：+0</p>
+			  <p id="dzText6" class="dzTextClass">曼巴挑战数：0</p>
+			  <p id="dzText7" class="dzTextClass">训练师应激：1</p>
+			  <p id="dzText8" class="dzTextClass">无尽硬币+1波数：0</p>
+			  <p id="dzText9" class="dzTextClass">防御硬币数：0</p>
+		</div>  
+	</div>
+	<!-- //dzm -->
+	<div id="missionSelect-container">
+		<h4 class="missionSelect-text">请选个曼巴挑战</h2>
+		<button class="btn" id="btn1">队伍里有5只指定随机不重复的属性宝可梦</button>
+		<button class="btn" id="btn2">队伍里有5只指定随机不重复的属性宝可梦</button>
+		<button class="btn" id="btn3">队伍里有5只指定随机不重复的属性宝可梦</button>
+		<p class="missionSelect-text">挑战失败将会返回前几波=￣ω￣=</p>
+	</div>
+	<!-- //dt -->
+	<div id="dutu-container">
+		<h4 class="dutu-text">毒图模式</h2>
+		<p class="dutu-text" id="dutuScore">累计得分：0</p>
+		<button class="btn" id="btn4">新建毒图</button>
+		<button class="btn" id="btn5">编辑毒图</button>
+		<button class="btn" id="btn7">跳到论坛</button>
+		<button class="btn" id="btn8">复制论坛链接</button>
+		<button class="btn" id="btn6">取消</button>
+		<p class="dutu-text">新建毒图会让你选2波精灵，第1敌方第2我方<br>编辑毒图会有部分功能受限<br>新建和编辑后都要自己打赢才能导出<br>然后上传网盘后到论坛学别人发帖分享哈</p>
+	</div>
+	<div id="formCreate">
+	    <form-create :rule="rule" :option="options" v-model="formData" v-model:api="api" @submit="onSubmit" @mounted="handleMounted"></form-create>
+	</div>
+	<div id="touchControls">
+		<div class="left">
+			<div id="control-group-dpad" class="control-group control-group-dpad">
+				<div id="dpad" data-control-key="DPAD">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+						<path id="dpadUp" data-key="UP"
+							d="M48,5.8C48,2.5,45.4,0,42,0H29.9C26.6,0,24,2.4,24,5.8V24h24V5.8z" />
+						<path id="dpadRight" data-key="RIGHT"
+							d="M66.2,24H48v24h18.2c3.3,0,5.8-2.7,5.8-6V29.9C72,26.5,69.5,24,66.2,24z" />
+						<path id="dpadDown" data-key="DOWN"
+							d="M24,66.3c0,3.3,2.6,5.7,5.9,5.7H42c3.3,0,6-2.4,6-5.7V48H24V66.3z" />
+						<path id="dpadLeft" data-key="LEFT"
+							d="M5.7,24C2.4,24,0,26.5,0,29.9V42c0,3.3,2.3,6,5.7,6H24V24H5.7z" />
+						<rect id="dpadCenter" x="24" y="24" width="24" height="24" />
+					</svg>
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+			<div id="control-group-action" class="control-group">
+				<div id="apadAction" class="apad-button apad-circle" data-key="ACTION">
+					<span class="apad-label">A</span>
+				</div>
+			</div>
+
+			<div id="control-group-cancel" class="control-group">
+				<div id="apadCancel" class="apad-button apad-circle" data-key="CANCEL">
+					<span class="apad-label">B</span>
+				</div>
+			</div>
+
+			<div id="control-group-extra-1" class="control-group control-group-extra">
+				<!-- buttons to navigate settings tabs -->
+				<div id="apadPreviousTab" class="apad-button apad-square apad-small" data-key="CYCLE_FORM">
+					<span class="apad-label">F</span>
+				</div>
+				<div id="apadNextTab" class="apad-button apad-square apad-small" data-key="CYCLE_SHINY">
+					<span class="apad-label">R</span>
+				</div>
+				<!-- buttons to open filter menu in starter select -->
+				<div id="apadOpenFilters" class="apad-button apad-rectangle apad-small" data-key="STATS">
+					<span class="apad-label">C</span>
+				</div>
+				<!-- main menu button -->
+				<div id="apadMenu" class="apad-button apad-rectangle apad-small" data-key="MENU">
+					<span class="apad-label">Menu</span>
+				</div>
+			</div>
+
+			<div id="control-group-extra-2" class="control-group control-group-extra">
+				<!-- buttons to cycle through pokemon characteristics in starter select -->
+				<div id="apadCycleForm" class="apad-button apad-square apad-small" data-key="CYCLE_FORM">
+					<span class="apad-label">F</span>
+				</div>
+				<div id="apadCycleGender" class="apad-button apad-square apad-small" data-key="CYCLE_GENDER">
+					<span class="apad-label">G</span>
+				</div>
+				<div id="apadCycleShiny" class="apad-button apad-square apad-small" data-key="CYCLE_SHINY">
+					<span class="apad-label">R</span>
+				</div>
+				<div id="apadCycleAbility" class="apad-button apad-square apad-small" data-key="CYCLE_ABILITY">
+					<span class="apad-label">E</span>
+				</div>
+				<div id="apadCycleNature" class="apad-button apad-square apad-small" data-key="CYCLE_NATURE">
+					<span class="apad-label">N</span>
+				</div>
+				<div id="apadCycleTera" class="apad-button apad-square apad-small" data-key="CYCLE_TERA">
+					<span class="apad-label">V</span>
+				</div>
+				<!-- buttons to display battle-specific information -->
+				<div id="apadInfo" class="apad-button apad-rectangle apad-small" data-key="CYCLE_TERA">
+					<span class="apad-label">V</span>
+				</div>
+				<div id="apadStats" class="apad-button apad-rectangle apad-small" data-key="STATS">
+					<span class="apad-label">C</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
