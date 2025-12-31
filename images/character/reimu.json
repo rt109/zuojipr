@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "reimu.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 297,
+				"h": 344
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "reimu",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 14,
+						"w": 295,
+						"h": 342
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 295,
+						"h": 342
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:40640438cbfcd22b128a17ad0ff36e4d:659d64a3a34200a682a63ea9cb2e9b75:8f2ccc90c5506e4521a729bd7c954796$"
+	}
+}

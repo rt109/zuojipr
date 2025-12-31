@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "marisa.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 299,
+				"h": 353
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "marisa",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 4,
+						"w": 297,
+						"h": 351
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 297,
+						"h": 351
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:07a39762d178fe688ad38c541b83e01b:0463c5c08ca6cad36f9de8b75b8207de:04613ba72fc7b89c343c3560eec6e23e$"
+	}
+}

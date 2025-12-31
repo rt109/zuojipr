@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "aya.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 290,
+				"h": 357
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "aya",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 0,
+						"w": 288,
+						"h": 355
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 288,
+						"h": 355
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:60f4314b321a394e5df6e0675506bb87:7c90d3d734722b83232d9794765c0ff6:b66dfa231934ffdc351e936ad2c7984e$"
+	}
+}

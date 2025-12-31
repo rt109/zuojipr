@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "cirno.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 274,
+				"h": 344
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "cirno",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 12,
+						"w": 272,
+						"h": 342
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 272,
+						"h": 342
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b8333b4d7ad1048740c17be27da41714:c2c03fc611ab569b4551806de5b3e618:7d09aa2bff3a31c880622ce53d0c3754$"
+	}
+}

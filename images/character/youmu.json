@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "youmu.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 336,
+				"h": 342
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "youmu",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 12,
+						"w": 334,
+						"h": 340
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 334,
+						"h": 340
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9ce0b78a0ff7649f7a0d481237611411:293e8c0d60b36149ae5cf7eb401be12e:efaeb3afc1c3362e113098f79b7aa370$"
+	}
+}
