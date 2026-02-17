@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "yukari.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 310,
+				"h": 359
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "yukari",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 2,
+						"w": 308,
+						"h": 357
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 308,
+						"h": 357
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fa4ae88f1f189d5a02d6c54a985a67ec:e44b1a3112a1e7bcf0a4fc0b0ab919ed:f735b0e72803fe3d340106421110fd0b$"
+	}
+}

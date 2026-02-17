@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "koishi.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 358,
+				"h": 346
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "koishi",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 11,
+						"w": 356,
+						"h": 344
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 356,
+						"h": 344
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3d7a47662acf44b506a518423cb0c92d:0fc631284d3d903c8cd87a2738d1c778:e0cf0aa48f4b506c29ea0bb00dcadc4c$"
+	}
+}

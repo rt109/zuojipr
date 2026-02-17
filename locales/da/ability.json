@@ -1,0 +1,1031 @@
+{
+  "stench": {
+    "name": "Stench"
+  },
+  "drizzle": {
+    "name": "Drizzle",
+    "description": "Denne Pokémon får det til at regne, når den sendes i kamp."
+  },
+  "speedBoost": {
+    "name": "Speed Boost"
+  },
+  "battleArmor": {
+    "name": "Battle Armor",
+    "description": "Hård rustning som beskytter imod Critical Hits."
+  },
+  "sturdy": {
+    "name": "Sturdy"
+  },
+  "damp": {
+    "name": "Damp"
+  },
+  "limber": {
+    "name": "Limber"
+  },
+  "sandVeil": {
+    "name": "Sand Veil"
+  },
+  "static": {
+    "name": "Static"
+  },
+  "voltAbsorb": {
+    "name": "Volt Absorb"
+  },
+  "waterAbsorb": {
+    "name": "Water Absorb"
+  },
+  "oblivious": {
+    "name": "Oblivious"
+  },
+  "cloudNine": {
+    "name": "Cloud Nine",
+    "description": "Eliminerer vejrets effekt."
+  },
+  "compoundEyes": {
+    "name": "Compound Eyes"
+  },
+  "insomnia": {
+    "name": "Insomnia"
+  },
+  "colorChange": {
+    "name": "Color Change",
+    "description": "Denne Pokémons type bliver den samme som det sidste angreb den blev ramt af."
+  },
+  "immunity": {
+    "name": "Immunity"
+  },
+  "flashFire": {
+    "name": "Flash Fire"
+  },
+  "shieldDust": {
+    "name": "Shield Dust"
+  },
+  "ownTempo": {
+    "name": "Own Tempo"
+  },
+  "suctionCups": {
+    "name": "Suction Cups"
+  },
+  "intimidate": {
+    "name": "Intimidate"
+  },
+  "shadowTag": {
+    "name": "Shadow Tag"
+  },
+  "roughSkin": {
+    "name": "Rough Skin"
+  },
+  "wonderGuard": {
+    "name": "Wonder Guard",
+    "description": "Dens mystiskre kraft lader kun supereffektive angreb ramme denne Pokémon."
+  },
+  "levitate": {
+    "name": "Levitate",
+    "description": "Ved at svæve i luften får denne Pokémon fuld immunitet mod alle Jord-type angreb."
+  },
+  "effectSpore": {
+    "name": "Effect Spore"
+  },
+  "synchronize": {
+    "name": "Synchronize",
+    "description": "Giver dens status tilstand til den Pokémon der gav den. Hvis denne Pokémon er din leder ind i kamp, deler vilde modstander Pokémon dens natur."
+  },
+  "clearBody": {
+    "name": "Clear Body",
+    "description": "Forhindrer andre Pokémons angreb og Abilities i at sænke denne Pokémons stats."
+  },
+  "naturalCure": {
+    "name": "Natural Cure"
+  },
+  "lightningRod": {
+    "name": "Lightning Rod"
+  },
+  "sereneGrace": {
+    "name": "Serene Grace"
+  },
+  "swiftSwim": {
+    "name": "Swift Swim"
+  },
+  "chlorophyll": {
+    "name": "Chlorophyll"
+  },
+  "illuminate": {
+    "name": "Illuminate"
+  },
+  "trace": {
+    "name": "Trace",
+    "description": "Når denne Pokémon sendes i kamp kopierer den modstanderens Evne."
+  },
+  "hugePower": {
+    "name": "Huge Power",
+    "description": "Fordobler denne Pokémons Angreb stat."
+  },
+  "poisonPoint": {
+    "name": "Poison Point"
+  },
+  "innerFocus": {
+    "name": "Inner Focus"
+  },
+  "magmaArmor": {
+    "name": "Magma Armor"
+  },
+  "waterVeil": {
+    "name": "Water Veil"
+  },
+  "magnetPull": {
+    "name": "Magnet Pull"
+  },
+  "soundproof": {
+    "name": "Soundproof",
+    "description": "Denne Pokémons lydisolering giver den fuld immunitet overfor alle lyd-baserede angreb."
+  },
+  "rainDish": {
+    "name": "Rain Dish"
+  },
+  "sandStream": {
+    "name": "Sand Stream",
+    "description": "Denne Pokémon starter en sandstorm, når den sendes i kamp."
+  },
+  "pressure": {
+    "name": "Pressure"
+  },
+  "thickFat": {
+    "name": "Thick Fat",
+    "description": "Denne Pokémon er beskyttet af et tykt lag af fedt, hvilket halverer skaden som den tager fra Ild- og Is-type angreb."
+  },
+  "earlyBird": {
+    "name": "Early Bird",
+    "description": "Denne Pokémon vågner fra søvn dobbelt så hurtigt som andre Pokémon."
+  },
+  "flameBody": {
+    "name": "Flame Body"
+  },
+  "runAway": {
+    "name": "Run Away",
+    "description": "En sikker flugt fra vilde Pokémon."
+  },
+  "keenEye": {
+    "name": "Keen Eye"
+  },
+  "hyperCutter": {
+    "name": "Hyper Cutter"
+  },
+  "pickup": {
+    "name": "Pickup"
+  },
+  "truant": {
+    "name": "Truant"
+  },
+  "hustle": {
+    "name": "Hustle"
+  },
+  "cuteCharm": {
+    "name": "Cute Charm"
+  },
+  "plus": {
+    "name": "Plus"
+  },
+  "minus": {
+    "name": "Minus"
+  },
+  "forecast": {
+    "name": "Forecast",
+    "description": "Denne Pokémon transformerer sig sammen med vejret for at ændre dens type til Vand, Ild eller Is."
+  },
+  "stickyHold": {
+    "name": "Sticky Hold"
+  },
+  "shedSkin": {
+    "name": "Shed Skin"
+  },
+  "guts": {
+    "name": "Guts"
+  },
+  "marvelScale": {
+    "name": "Marvel Scale"
+  },
+  "liquidOoze": {
+    "name": "Liquid Ooze"
+  },
+  "overgrow": {
+    "name": "Overgrow"
+  },
+  "blaze": {
+    "name": "Blaze"
+  },
+  "torrent": {
+    "name": "Torrent"
+  },
+  "swarm": {
+    "name": "Swarm"
+  },
+  "rockHead": {
+    "name": "Rock Head",
+    "description": "Beskytter denne Pokémon imod rekyl skade."
+  },
+  "drought": {
+    "name": "Drought",
+    "description": "Gør solskinnen skarp når denne Pokémon sendes i kamp."
+  },
+  "arenaTrap": {
+    "name": "Arena Trap"
+  },
+  "vitalSpirit": {
+    "name": "Vital Spirit",
+    "description": "Denne Pokémon er fuld af vitalitet, og det forhindrer den i at falde i søvn."
+  },
+  "whiteSmoke": {
+    "name": "White Smoke",
+    "description": "Denne Pokémon er beskyttet af sin hvide røg, hvilket forhindrer andre Pokémon i at sænke dens stats."
+  },
+  "purePower": {
+    "name": "Pure Power",
+    "description": "Ved hjælp af dens rene kraft, fordobler denne Pokémon sit Angreb stat."
+  },
+  "shellArmor": {
+    "name": "Shell Armor",
+    "description": "En hård skal beskytter denne Pokémon fra Critical Hits."
+  },
+  "airLock": {
+    "name": "Air Lock",
+    "description": "Eliminerer vejrets effekt."
+  },
+  "tangledFeet": {
+    "name": "Tangled Feet"
+  },
+  "motorDrive": {
+    "name": "Motor Drive"
+  },
+  "rivalry": {
+    "name": "Rivalry"
+  },
+  "steadfast": {
+    "name": "Steadfast"
+  },
+  "snowCloak": {
+    "name": "Snow Cloak"
+  },
+  "gluttony": {
+    "name": "Gluttony"
+  },
+  "angerPoint": {
+    "name": "Anger Point"
+  },
+  "unburden": {
+    "name": "Unburden"
+  },
+  "heatproof": {
+    "name": "Heatproof"
+  },
+  "simple": {
+    "name": "Simple"
+  },
+  "drySkin": {
+    "name": "Dry Skin"
+  },
+  "download": {
+    "name": "Download"
+  },
+  "ironFist": {
+    "name": "Iron Fist"
+  },
+  "poisonHeal": {
+    "name": "Poison Heal"
+  },
+  "adaptability": {
+    "name": "Adaptability"
+  },
+  "skillLink": {
+    "name": "Skill Link",
+    "description": "Maksimerer antallet af gange et multistrike angreb rammer."
+  },
+  "hydration": {
+    "name": "Hydration"
+  },
+  "solarPower": {
+    "name": "Solar Power"
+  },
+  "quickFeet": {
+    "name": "Quick Feet"
+  },
+  "normalize": {
+    "name": "Normalize"
+  },
+  "sniper": {
+    "name": "Sniper"
+  },
+  "magicGuard": {
+    "name": "Magic Guard"
+  },
+  "noGuard": {
+    "name": "No Guard"
+  },
+  "stall": {
+    "name": "Stall"
+  },
+  "technician": {
+    "name": "Technician"
+  },
+  "leafGuard": {
+    "name": "Leaf Guard",
+    "description": "Forhindrer status tilstande i skarp solskin."
+  },
+  "klutz": {
+    "name": "Klutz",
+    "description": "Denne Pokémon kan ikke bruge holdte genstande."
+  },
+  "moldBreaker": {
+    "name": "Mold Breaker"
+  },
+  "superLuck": {
+    "name": "Super Luck"
+  },
+  "aftermath": {
+    "name": "Aftermath"
+  },
+  "anticipation": {
+    "name": "Anticipation",
+    "description": "Denne Pokémon kan fornemme en modstanders farlige angreb."
+  },
+  "forewarn": {
+    "name": "Forewarn",
+    "description": "Når den sendes i kamp kan denne Pokémon gennemskue et af modstanderens angreb."
+  },
+  "unaware": {
+    "name": "Unaware"
+  },
+  "tintedLens": {
+    "name": "Tinted Lens"
+  },
+  "filter": {
+    "name": "Filter"
+  },
+  "slowStart": {
+    "name": "Slow Start",
+    "description": "I fem ture er denne Pokémons Angreb og Hastighed stat halveret."
+  },
+  "scrappy": {
+    "name": "Scrappy"
+  },
+  "stormDrain": {
+    "name": "Storm Drain"
+  },
+  "iceBody": {
+    "name": "Ice Body"
+  },
+  "solidRock": {
+    "name": "Solid Rock"
+  },
+  "snowWarning": {
+    "name": "Snow Warning",
+    "description": "Denne Pokémon får det til at sne, når den sendes i kamp."
+  },
+  "honeyGather": {
+    "name": "Honey Gather"
+  },
+  "frisk": {
+    "name": "Frisk",
+    "description": "Når denne Pokémon sendes i kamp kan den tjekke modstanderens Evne."
+  },
+  "reckless": {
+    "name": "Reckless"
+  },
+  "multitype": {
+    "name": "Multitype",
+    "description": "Ændrer denne Pokémons type til at matche den Plade den holder."
+  },
+  "flowerGift": {
+    "name": "Flower Gift"
+  },
+  "badDreams": {
+    "name": "Bad Dreams"
+  },
+  "pickpocket": {
+    "name": "Pickpocket"
+  },
+  "sheerForce": {
+    "name": "Sheer Force"
+  },
+  "contrary": {
+    "name": "Contrary"
+  },
+  "unnerve": {
+    "name": "Unnerve",
+    "description": "Foruroliger modstanderen, hvilket gør at de ikke kan spise bær."
+  },
+  "defiant": {
+    "name": "Defiant"
+  },
+  "defeatist": {
+    "name": "Defeatist"
+  },
+  "cursedBody": {
+    "name": "Cursed Body"
+  },
+  "healer": {
+    "name": "Healer"
+  },
+  "friendGuard": {
+    "name": "Friend Guard"
+  },
+  "weakArmor": {
+    "name": "Weak Armor"
+  },
+  "heavyMetal": {
+    "name": "Heavy Metal",
+    "description": "Fordobler denne Pokémons vægt."
+  },
+  "lightMetal": {
+    "name": "Light Metal",
+    "description": "Halverer denne Pokémons vægt."
+  },
+  "multiscale": {
+    "name": "Multiscale"
+  },
+  "toxicBoost": {
+    "name": "Toxic Boost"
+  },
+  "flareBoost": {
+    "name": "Flare Boost"
+  },
+  "harvest": {
+    "name": "Harvest"
+  },
+  "telepathy": {
+    "name": "Telepathy"
+  },
+  "moody": {
+    "name": "Moody"
+  },
+  "overcoat": {
+    "name": "Overcoat"
+  },
+  "poisonTouch": {
+    "name": "Poison Touch"
+  },
+  "regenerator": {
+    "name": "Regenerator"
+  },
+  "bigPecks": {
+    "name": "Big Pecks"
+  },
+  "sandRush": {
+    "name": "Sand Rush"
+  },
+  "wonderSkin": {
+    "name": "Wonder Skin"
+  },
+  "analytic": {
+    "name": "Analytic"
+  },
+  "illusion": {
+    "name": "Illusion"
+  },
+  "imposter": {
+    "name": "Imposter"
+  },
+  "infiltrator": {
+    "name": "Infiltrator"
+  },
+  "mummy": {
+    "name": "Mummy",
+    "description": "Kontakt med denne Pokémon ændrer angriberens Evne til Mummy."
+  },
+  "moxie": {
+    "name": "Moxie",
+    "description": "Denne Pokémon viser beslutsomhed, hvilket booster dens Angreb stat efter den besejrer andre Pokémon."
+  },
+  "justified": {
+    "name": "Justified"
+  },
+  "rattled": {
+    "name": "Rattled"
+  },
+  "magicBounce": {
+    "name": "Magic Bounce"
+  },
+  "sapSipper": {
+    "name": "Sap Sipper"
+  },
+  "prankster": {
+    "name": "Prankster"
+  },
+  "sandForce": {
+    "name": "Sand Force"
+  },
+  "ironBarbs": {
+    "name": "Iron Barbs"
+  },
+  "zenMode": {
+    "name": "Zen Mode"
+  },
+  "victoryStar": {
+    "name": "Victory Star"
+  },
+  "turboblaze": {
+    "name": "Turboblaze"
+  },
+  "teravolt": {
+    "name": "Teravolt"
+  },
+  "aromaVeil": {
+    "name": "Aroma Veil"
+  },
+  "flowerVeil": {
+    "name": "Flower Veil"
+  },
+  "cheekPouch": {
+    "name": "Cheek Pouch"
+  },
+  "protean": {
+    "name": "Protean",
+    "description": "Ændrer denne Pokémons type til den samme som det angreb den skal til at bruge."
+  },
+  "furCoat": {
+    "name": "Fur Coat"
+  },
+  "magician": {
+    "name": "Magician"
+  },
+  "bulletproof": {
+    "name": "Bulletproof"
+  },
+  "competitive": {
+    "name": "Competitive"
+  },
+  "strongJaw": {
+    "name": "Strong Jaw"
+  },
+  "refrigerate": {
+    "name": "Refrigerate"
+  },
+  "sweetVeil": {
+    "name": "Sweet Veil"
+  },
+  "stanceChange": {
+    "name": "Stance Change",
+    "description": "Denne Pokémon ændrer sin form til Blade forme når den bruger et angreb, og ændrer sig til Shield Forme når den bruger King’s Shield."
+  },
+  "galeWings": {
+    "name": "Gale Wings"
+  },
+  "megaLauncher": {
+    "name": "Mega Launcher"
+  },
+  "grassPelt": {
+    "name": "Grass Pelt"
+  },
+  "symbiosis": {
+    "name": "Symbiosis",
+    "description": "Denne Pokémon giver sin genstand til en allieret som har brugt sin genstand."
+  },
+  "toughClaws": {
+    "name": "Tough Claws"
+  },
+  "pixilate": {
+    "name": "Pixilate"
+  },
+  "gooey": {
+    "name": "Gooey",
+    "description": "Kontakt med denne Pokémon sænker angriberens Hastighed stat."
+  },
+  "aerilate": {
+    "name": "Aerilate"
+  },
+  "parentalBond": {
+    "name": "Parental Bond"
+  },
+  "darkAura": {
+    "name": "Dark Aura"
+  },
+  "fairyAura": {
+    "name": "Fairy Aura"
+  },
+  "auraBreak": {
+    "name": "Aura Break"
+  },
+  "primordialSea": {
+    "name": "Primordial Sea",
+    "description": "Denne Pokémon ændrer vejret for at nulstille Ild-type angreb."
+  },
+  "desolateLand": {
+    "name": "Desolate Land",
+    "description": "Denne Pokémon ændrer vejret for at nulstille Vand-type angreb."
+  },
+  "deltaStream": {
+    "name": "Delta Stream"
+  },
+  "stamina": {
+    "name": "Stamina"
+  },
+  "wimpOut": {
+    "name": "Wimp Out"
+  },
+  "emergencyExit": {
+    "name": "Emergency Exit"
+  },
+  "waterCompaction": {
+    "name": "Water Compaction"
+  },
+  "merciless": {
+    "name": "Merciless",
+    "description": "Denne Pokémons angreb bliver Critical Hits hvis målet er forgiftet."
+  },
+  "shieldsDown": {
+    "name": "Shields Down"
+  },
+  "stakeout": {
+    "name": "Stakeout"
+  },
+  "waterBubble": {
+    "name": "Water Bubble"
+  },
+  "steelworker": {
+    "name": "Steelworker"
+  },
+  "berserk": {
+    "name": "Berserk"
+  },
+  "slushRush": {
+    "name": "Slush Rush"
+  },
+  "longReach": {
+    "name": "Long Reach",
+    "description": "Denne Pokémon laver ikke fysisk kontakt med dens angreb."
+  },
+  "liquidVoice": {
+    "name": "Liquid Voice"
+  },
+  "triage": {
+    "name": "Triage"
+  },
+  "galvanize": {
+    "name": "Galvanize"
+  },
+  "surgeSurfer": {
+    "name": "Surge Surfer"
+  },
+  "schooling": {
+    "name": "Schooling"
+  },
+  "disguise": {
+    "name": "Disguise"
+  },
+  "battleBond": {
+    "name": "Battle Bond"
+  },
+  "powerConstruct": {
+    "name": "Power Construct"
+  },
+  "corrosion": {
+    "name": "Corrosion"
+  },
+  "comatose": {
+    "name": "Comatose"
+  },
+  "queenlyMajesty": {
+    "name": "Queenly Majesty"
+  },
+  "innardsOut": {
+    "name": "Innards Out"
+  },
+  "dancer": {
+    "name": "Dancer"
+  },
+  "battery": {
+    "name": "Battery"
+  },
+  "fluffy": {
+    "name": "Fluffy",
+    "description": "Halverer den skade som tages fra angreb som laver fysisk kontakt, men fordobler skaden taget fra Ild-type angreb."
+  },
+  "dazzling": {
+    "name": "Dazzling"
+  },
+  "soulHeart": {
+    "name": "Soul-Heart"
+  },
+  "tanglingHair": {
+    "name": "Tangling Hair",
+    "description": "Kontakt med denne Pokémons sænker angriberens Hastighed stat."
+  },
+  "receiver": {
+    "name": "Receiver",
+    "description": "Denne Pokémon kopierer en besejret allierets Evne."
+  },
+  "powerOfAlchemy": {
+    "name": "Power of Alchemy",
+    "description": "Denne Pokémon kopierer en besejret allierets Evne."
+  },
+  "beastBoost": {
+    "name": "Beast Boost"
+  },
+  "rksSystem": {
+    "name": "RKS System",
+    "description": "Ændrer denne Pokémons type til at matche den Memory Disc den holder."
+  },
+  "electricSurge": {
+    "name": "Electric Surge",
+    "description": "Ændrer jorden til Electric Terrain når denne Pokémon sendes i kamp."
+  },
+  "psychicSurge": {
+    "name": "Psychic Surge",
+    "description": "Ændrer jorden til Psychic Terrain når denne Pokémon sendes i kamp."
+  },
+  "mistySurge": {
+    "name": "Misty Surge",
+    "description": "Ændrer jorden til Misty Terrain når denne Pokémon sendes i kamp."
+  },
+  "grassySurge": {
+    "name": "Grassy Surge",
+    "description": "Ændrer jorden til Grassy Terrain når denne Pokémon sendes i kamp."
+  },
+  "fullMetalBody": {
+    "name": "Full Metal Body"
+  },
+  "shadowShield": {
+    "name": "Shadow Shield"
+  },
+  "prismArmor": {
+    "name": "Prism Armor"
+  },
+  "neuroforce": {
+    "name": "Neuroforce"
+  },
+  "intrepidSword": {
+    "name": "Intrepid Sword",
+    "description": "Booster denne Pokémons Angreb stat, når den sendes i kamp."
+  },
+  "dauntlessShield": {
+    "name": "Dauntless Shield",
+    "description": "Booster denne Pokémons Forsvar stat, når den sendes i kamp."
+  },
+  "libero": {
+    "name": "Libero",
+    "description": "Ændrer denne Pokémons type til den samme som det angreb den skal til at bruge."
+  },
+  "ballFetch": {
+    "name": "Ball Fetch"
+  },
+  "cottonDown": {
+    "name": "Cotton Down",
+    "description": "Når denne Pokémon rammes af et angreb spreder den bomuld omkring sig og sænker alle andre Pokémons Hastighed stat."
+  },
+  "propellerTail": {
+    "name": "Propeller Tail",
+    "description": "Ignorerer effekten af modstanderens Abilities og angreb som tiltrækker andre angreb."
+  },
+  "mirrorArmor": {
+    "name": "Mirror Armor",
+    "description": "Sender de stat-sænkende effekter denne Pokémon modtager tilbage imod angriberen."
+  },
+  "gulpMissile": {
+    "name": "Gulp Missile"
+  },
+  "stalwart": {
+    "name": "Stalwart",
+    "description": "Ignorerer effekten bag modstanderens Abilities og angreb som tiltrækker angreb."
+  },
+  "steamEngine": {
+    "name": "Steam Engine"
+  },
+  "punkRock": {
+    "name": "Punk Rock"
+  },
+  "sandSpit": {
+    "name": "Sand Spit",
+    "description": "Denne Pokémon skaber en sandstorm når den rammes af et angreb."
+  },
+  "iceScales": {
+    "name": "Ice Scales",
+    "description": "Denne Pokémon er beskyttet af is-skæl, hvilke halverer skaden den tager fra specielle angreb."
+  },
+  "ripen": {
+    "name": "Ripen",
+    "description": "Modner Berries og fordobler deres effekt."
+  },
+  "iceFace": {
+    "name": "Ice Face"
+  },
+  "powerSpot": {
+    "name": "Power Spot"
+  },
+  "mimicry": {
+    "name": "Mimicry",
+    "description": "Ændrer denne Pokémons type alt efter terrænet."
+  },
+  "screenCleaner": {
+    "name": "Screen Cleaner",
+    "description": "Når denne Pokémon sendes i kamp nulstilles effekten af Light Screen, Reflect og Aurora Veil for både modstanderen og allierede."
+  },
+  "steelySpirit": {
+    "name": "Steely Spirit"
+  },
+  "perishBody": {
+    "name": "Perish Body",
+    "description": "Når denne Pokémon rammes af et angreb som laver fysisk kontakt vil både angriberen og denne Pokémon slås ud efter tre ture, med mindre de skiftes ud."
+  },
+  "wanderingSpirit": {
+    "name": "Wandering Spirit",
+    "description": "Denne Pokémon bytter Evne med en Pokémon som rammer den med et angreb der laver fysisk kontakt."
+  },
+  "gorillaTactics": {
+    "name": "Gorilla Tactics"
+  },
+  "neutralizingGas": {
+    "name": "Neutralizing Gas"
+  },
+  "pastelVeil": {
+    "name": "Pastel Veil"
+  },
+  "hungerSwitch": {
+    "name": "Hunger Switch"
+  },
+  "quickDraw": {
+    "name": "Quick Draw"
+  },
+  "unseenFist": {
+    "name": "Unseen Fist",
+    "description": "Hvis denne Pokémon bruger et angreb som laver direkte kontakt kan den ramme målet, selv hvis målet beskytter sig selv."
+  },
+  "curiousMedicine": {
+    "name": "Curious Medicine",
+    "description": "Når denne Pokémon sendes i kamp spredes der medicin fra dens skal, hvilke fjerner alle stat ændringer fra allierede."
+  },
+  "transistor": {
+    "name": "Transistor"
+  },
+  "dragonsMaw": {
+    "name": "Dragon’s Maw"
+  },
+  "chillingNeigh": {
+    "name": "Chilling Neigh",
+    "description": "Når denne Pokémon besejrer et mål, udstøder den et gyseligt hvin, hvilket booster dens Angreb stat."
+  },
+  "grimNeigh": {
+    "name": "Grim Neigh",
+    "description": "Når denne Pokémon besejrer et mål, udstøder den et skrækindgydende hvin, hvilket booster dens Sp. Ang. stat."
+  },
+  "asOneGlastrier": {
+    "name": "As One"
+  },
+  "asOneSpectrier": {
+    "name": "As One"
+  },
+  "lingeringAroma": {
+    "name": "Lingering Aroma",
+    "description": "Kontakt med denne Pokémon ændrer angriberens Evne til Lingering Aroma."
+  },
+  "seedSower": {
+    "name": "Seed Sower",
+    "description": "Denne Pokémon laver jorden om til Grassy Terrain når den rammes af et angreb."
+  },
+  "thermalExchange": {
+    "name": "Thermal Exchange",
+    "description": "Booster denne Pokémons Angreb stat når den rammes af et Ild-type angreb. Denne Pokémon kan heller ikke forbrændres."
+  },
+  "angerShell": {
+    "name": "Anger Shell",
+    "description": "Når et angreb som får denne Pokémons HP til at være halvt eller lavere bliver den vred. Dette sænker dens Forsvar og Sp. For. stats, men booster dens Angreb, Sp. Ang. og Hastighed stats."
+  },
+  "purifyingSalt": {
+    "name": "Purifying Salt",
+    "description": "Denne Pokémons rene salt beskytter den fra status tilstande og halverer skaden den tager fra Spøgelse-type angreb."
+  },
+  "wellBakedBody": {
+    "name": "Well-Baked Body",
+    "description": "Denne Pokémon tager ikke skade når den rammes af Ild-type angreb. I stedet bliver dens Forsvar stat skarpt boostet."
+  },
+  "windRider": {
+    "name": "Wind Rider",
+    "description": "Booster denne Pokémons Angreb stat hvis Tailwind er i effekt, eller hvis denne Pokémon rammes af et vind angreb. Den tager heller ikke skade af vind angreb."
+  },
+  "guardDog": {
+    "name": "Guard Dog",
+    "description": "Booster denne Pokémons Angreb stat hvis den intimideres. Angreb og genstande som ville tvinge den til at skifte ud virker heller ikke."
+  },
+  "rockyPayload": {
+    "name": "Rocky Payload"
+  },
+  "windPower": {
+    "name": "Wind Power"
+  },
+  "zeroToHero": {
+    "name": "Zero to Hero",
+    "description": "Denne Pokémon transformerer til sin Hero Form når den skiftes ud."
+  },
+  "commander": {
+    "name": "Commander"
+  },
+  "electromorphosis": {
+    "name": "Electromorphosis",
+    "description": "Denne Pokémon bliver opladt når den tager skade, hvilke booster det næste Elektrisk-type angreb den bruger."
+  },
+  "protosynthesis": {
+    "name": "Protosynthesis",
+    "description": "Booster denne Pokémons højeste stat i skarp solskin."
+  },
+  "quarkDrive": {
+    "name": "Quark Drive",
+    "description": "Booster denne Pokémons højeste stat på Elektrisk Terræn."
+  },
+  "goodAsGold": {
+    "name": "Good as Gold",
+    "description": "Denne Pokémons krop af ren, solid guld giver den fuld immunitet fra andre Pokémons status angreb."
+  },
+  "vesselOfRuin": {
+    "name": "Vessel of Ruin"
+  },
+  "swordOfRuin": {
+    "name": "Sword of Ruin"
+  },
+  "tabletsOfRuin": {
+    "name": "Tablets of Ruin"
+  },
+  "beadsOfRuin": {
+    "name": "Beads of Ruin"
+  },
+  "orichalcumPulse": {
+    "name": "Orichalcum Pulse"
+  },
+  "hadronEngine": {
+    "name": "Hadron Engine"
+  },
+  "opportunist": {
+    "name": "Opportunist",
+    "description": "Hvis en modstanders stats bliver boostet, vil denne Pokémon udnytte muligheden for at booste det samme stat."
+  },
+  "cudChew": {
+    "name": "Cud Chew",
+    "description": "Når denne Pokémon spiser et bær vil den kaste bærret op i slutningen af den næste tur, og spise det igen."
+  },
+  "sharpness": {
+    "name": "Sharpness"
+  },
+  "supremeOverlord": {
+    "name": "Supreme Overlord"
+  },
+  "costar": {
+    "name": "Costar",
+    "description": "Når denne Pokémon sendes i kamp kopierer den en allierets stat ændring."
+  },
+  "toxicDebris": {
+    "name": "Toxic Debris",
+    "description": "Spreder giftige pigge for fødderne af det andet hold når denne Pokémon tager skade fra fysiske angreb."
+  },
+  "armorTail": {
+    "name": "Armor Tail",
+    "description": "Den mystiske hale som dækker denne Pokémons hoved forhindrer modstanderen i at bruge prioritets angreb imod denne Pokémon og dens allierede."
+  },
+  "earthEater": {
+    "name": "Earth Eater"
+  },
+  "myceliumMight": {
+    "name": "Mycelium Might"
+  },
+  "mindsEye": {
+    "name": "Mind’s Eye",
+    "description": "Denne Pokémon ignorerer ændringer i modstanderens Evasiveness, dens Præcision kan ikke sænket, og den kan ramme Spøgelses-typer med Normal- og Kamp-type angreb."
+  },
+  "supersweetSyrup": {
+    "name": "Supersweet Syrup",
+    "description": "En sygeligt sød duft spreder sig på tværs af feltet første gang denne Pokémon sendes i kamp, hvilket sænker modstanderens Evasiveness."
+  },
+  "hospitality": {
+    "name": "Hospitality"
+  },
+  "toxicChain": {
+    "name": "Toxic Chain"
+  },
+  "embodyAspectTeal": {
+    "name": "Embody Aspect",
+    "description": "Denne Pokémons hjerte fyldes med minder, hvilket får dens Teal Mask til at skinne, og booster dens Hastighed stat."
+  },
+  "embodyAspectWellspring": {
+    "name": "Embody Aspect",
+    "description": "Denne Pokémons hjerte fyldes med minder, hvilket får dens Wellspring Mask til at skinne, og booster dens Sp. For. stat."
+  },
+  "embodyAspectHearthflame": {
+    "name": "Embody Aspect",
+    "description": "Denne Pokémons hjerte fyldes med minder, hvilket får dens Hearthflame Mask til at skinne, og booster dens Angreb stat."
+  },
+  "embodyAspectCornerstone": {
+    "name": "Embody Aspect",
+    "description": "Denne Pokémons hjerte fyldes med minder, hvilket får dens Cornerstone Mask tile at skinne, og booster dens Forsvar stat."
+  },
+  "teraShift": {
+    "name": "Tera Shift",
+    "description": "Når denne Pokémon sendes i kamp absorberer den energien omkring sig og transformerer til sin Terastal Form."
+  },
+  "teraShell": {
+    "name": "Tera Shell",
+    "description": "Denne Pokémons skal indeholder styrken fra alle typer. Alle skade-gørende angreb som rammer denne Pokémon mens dens HP er fuldt vil være ikke særlig effektive."
+  },
+  "teraformZero": {
+    "name": "Teraform Zero"
+  },
+  "poisonPuppeteer": {
+    "name": "Poison Puppeteer",
+    "description": "Pokémon forgiftet af Pecharunts angreb bliver også forvirrede."
+  }
+}

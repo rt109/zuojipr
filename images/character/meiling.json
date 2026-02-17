@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "meiling.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 260,
+				"h": 332
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "meiling",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 62,
+						"y": 29,
+						"w": 258,
+						"h": 330
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 258,
+						"h": 330
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a8bd231aaaa14b90661c45f00e4d9225:7f5fba5d2ea2d96df5c5c5c7dd9723b2:54a917c42f5c8914fa9c3f66d06b769e$"
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "stench": {
+    "name": "Pudor"
+  },
+  "drizzle": {
+    "name": "Plugim",
+    "description": "Causa que plogui al entrar en combat."
+  },
+  "speedBoost": {
+    "name": "Impuls"
+  },
+  "battleArmor": {
+    "name": "Armadura de Combat",
+    "description": "La seva robusta cuirassa el protegeix dels cops crítics."
+  },
+  "sturdy": {
+    "name": "Robustesa"
+  },
+  "damp": {
+    "name": "Humitat"
+  },
+  "limber": {
+    "name": "Flexibilitat"
+  },
+  "sandVeil": {
+    "name": "Vel Sorra"
+  }
+}
